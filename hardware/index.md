@@ -13,7 +13,7 @@ review-with: jonnya
 
 *Please note, this site is recently created, and should be considered closer to a community wiki than a data-sheet. 
 We've done our best to start with a correct set of information. 
-If you find mistakes, please report them as bugs on [GitHub here](https://github.com/microbit-foundation/dev-community-site/issues)*
+If you find mistakes, please report them as bugs on [GitHub here](https://github.com/microbit-foundation/dev-docs/issues)*
 
 # Overview
 {:notoc}
@@ -66,7 +66,7 @@ via an off-chip aerial.
 
 ## Bluetooth Wireless Communication
 
-The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S100 SoftDevice,
+The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice,
 which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 including smartphones and tablets.
@@ -224,10 +224,10 @@ mode at any one time.
 ||        3 may be assigned to an optional SPI communications interface
 ||        3 may be assigned for up to 3 simultaneous touch sensing inputs
 |ADC resolution | 10 bit (0..1023)
-| Edge Connector| [mechanical data](./mechanical.md)
+| Edge Connector| [Edge connector data sheet](/hardware/edgeconnector_ds/)
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
-| More Info | [here](../edgeconnector)
+| More Info | [here](/hardware/edgeconnector/)
 
 
 ## Power Supply
@@ -262,7 +262,7 @@ main computer.
 | RAM           | 4KB
 | Speed         | 16MHz
 | Debug capabilities | SWD
-| More Info | [here](../software/interface)
+| More Info | [here](/software/daplink-interface/)
 
 
 ## USB Communications
@@ -281,7 +281,7 @@ of application programs.
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
-| More Info | [here](../software/interface)
+| More Info | [here](/software/daplink-interface/)
 
 
 ## Debugging
@@ -316,7 +316,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Schematic](./schematic)
 
-[Reference Design](./referencedesign)
+[Reference Design](./reference-design)
 
 [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
